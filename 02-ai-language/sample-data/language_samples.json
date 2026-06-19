@@ -1,0 +1,44 @@
+{
+  "documents": [
+    {
+      "id": "1",
+      "language": "en",
+      "text": "Microsoft was founded by Bill Gates and Paul Allen in Albuquerque on April 4, 1975."
+    },
+    {
+      "id": "2",
+      "language": "en",
+      "text": "The delivery was delayed for three days, but the customer support team was kind and helpful."
+    },
+    {
+      "id": "3",
+      "language": "en",
+      "text": "Please contact Mina Kim at mina.kim@example.com or call 010-1234-5678 about the invoice."
+    },
+    {
+      "id": "4",
+      "language": "ko",
+      "text": "서울에 있는 고객이 배송 지연과 환불 절차에 대해 문의했습니다."
+    },
+    {
+      "id": "5",
+      "language": "ko",
+      "text": "김민수 고객은 2026년 6월 19일에 서울 강남구에서 열린 Microsoft 세미나에 참석했습니다."
+    }
+
+  ],
+  "translation_samples": [
+    {
+      "id": "t1",
+      "text": "Azure AI Language helps developers analyze text and build intelligent applications."
+    },
+    {
+      "id": "t2",
+      "text": "The customer wants to cancel the order and request a refund."
+    },
+    {
+      "id": "t3",
+      "text": "오늘 배송이 지연되어 고객센터에 문의했습니다."
+    }
+  ]
+}
