@@ -7,7 +7,15 @@ import requests
 from dotenv import load_dotenv
 
 
-load_dotenv()
+# common.py 위치:
+# azure-ai-services-labs/01-document-intelligence/02-rest-api/common.py
+#
+# 루트 폴더:
+# azure-ai-services-labs
+BASE_DIR = Path(__file__).resolve().parents[2]
+ENV_PATH = BASE_DIR / ".env"
+
+load_dotenv(ENV_PATH)
 
 ENDPOINT = os.getenv("AZURE_DOCUMENT_INTELLIGENCE_ENDPOINT")
 KEY = os.getenv("AZURE_DOCUMENT_INTELLIGENCE_KEY")
@@ -16,7 +24,7 @@ API_VERSION = "2024-11-30"
 
 def analyze_document(model_id: str, file_path: str):
     if not ENDPOINT or not KEY:
-        raise ValueError("`.env`에 ENDPOINT와 KEY를 설정하세요.")
+        raise ValueError("루트 `.env`에 AZURE_DOCUMENT_INTELLIGENCE_ENDPOINT와 AZURE_DOCUMENT_INTELLIGENCE_KEY를 설정하세요.")
 
     file_path = Path(file_path)
 
