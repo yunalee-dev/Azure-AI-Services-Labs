@@ -1,8 +1,0 @@
-requests
-python-dotenv
-gradio
-azure-ai-textanalytics
-azure-core
-pandas
-azure-cognitiveservices-speech
-azure-ai-vision-imageanalysis
