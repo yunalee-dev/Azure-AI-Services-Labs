@@ -6,6 +6,3 @@ azure-core
 pandas
 azure-cognitiveservices-speech
 azure-ai-vision-imageanalysis
-azure-cognitiveservices-vision-customvision
-opencv-python
-pillow

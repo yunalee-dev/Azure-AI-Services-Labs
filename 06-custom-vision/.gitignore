@@ -17,6 +17,3 @@ outputs/
 
 # Jupyter
 .ipynb_checkpoints/
-
-outputs/exported-models/
-*.zip
